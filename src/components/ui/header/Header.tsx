@@ -15,11 +15,9 @@ const _Header=()=>{
                     theme="light"
                     mode="horizontal"
                     defaultSelectedKeys={['']}>
-
-
-                    <Menu.Item className = "Item" key = "1" onClick={()=>document.location  = "/create"} >Создать</Menu.Item>
-                    <Menu.Item className = "Item" key = "2" onClick={()=>document.location  = "/tests"}>Тесты</Menu.Item>
-                    <Menu.Item className = "Item" key = "3" onClick={()=>document.location  = "/login"}>Войти</Menu.Item>
+                    <Item key = "1" url = "/create" text = "Создать"/>
+                    <Item key = "2" url = "/tests" text = "Создать"/>
+                    <Item key = "3" url = "/login" text = "Создать"/>
                 </Menu>
             </Header>
         </Layout>
