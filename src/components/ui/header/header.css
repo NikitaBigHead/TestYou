@@ -1,0 +1,21 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+}
+
+.logo{
+    user-select: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Item{
+    background-color:cyan;
+}
+.Item:hover{
+    background-color: aliceblue;
+}
+.selected{
+    background-color: aliceblue;
+}
