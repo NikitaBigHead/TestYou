@@ -1,6 +1,8 @@
-.Header{
+/* style.css */
+.header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: cyan;
 }
 
@@ -9,9 +11,16 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
+    text-decoration: none;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .Item{
-    background-color:cyan;
+    padding:1rem 5rem;
+    text-decoration: none;
 }
 .Item:hover{
     background-color: aliceblue;
