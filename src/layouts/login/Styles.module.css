@@ -1,0 +1,44 @@
+.mainBlock{
+    font-size: 1.5rem;
+
+    height: 100vh;
+}
+.block{
+    text-align: center;
+    margin: 18vh;
+}
+
+.loginInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    align-items: center;
+    border:3px solid black;
+    border-radius: 3px;
+    background-color:aliceblue;
+
+
+    margin:0.5rem auto;
+    padding: 1rem;
+
+}
+.loginInfo button{
+    font-size: 1.5rem;
+}
+.loginInfo input{
+    font-size: 1.2rem;
+}
+
+.item{
+    margin: 0.3rem;
+}
+.links{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.link{
+    margin:0.3rem;
+    text-decoration: none;
+}

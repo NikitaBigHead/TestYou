@@ -4,14 +4,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: cyan;
+    height: 15vh;
 }
 
 .logo{
     user-select: none;
     color: white;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-decoration: none;
+    padding-left:2rem ;
 }
 .headerNav{
     display: flex;
@@ -21,10 +23,16 @@
 .Item{
     padding:1rem 5rem;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 .Item:hover{
     background-color: aliceblue;
+    border-radius:10px;
+    font-size: 1.8rem;
+    color:black;
 }
-.selected{
-    background-color: aliceblue;
+.active{
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: underline;
 }

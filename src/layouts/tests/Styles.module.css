@@ -1,0 +1,15 @@
+.tests{
+    display: flex;
+    flex-direction: row;
+}
+.testBlock{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px ;
+    max-width: 28vw;
+}
+.meta{
+    display: none;
+}

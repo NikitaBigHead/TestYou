@@ -1,0 +1,44 @@
+.main{
+    margin: 19vh auto;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 3px ;
+    border:3px solid black;
+    padding: 2rem;
+}
+.quistion{
+    font-size: 2rem;
+}
+.answers{
+    margin-top:1rem ;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    width: 50%;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.buttons button{
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border: solid black 1px;
+    height: 2rem;
+
+}
+.checker{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checker input{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #adb5bd;
+    border-radius: 0.3rem;
+    background-color: aqua;
+
+}
