@@ -1,0 +1,87 @@
+.main{
+    margin: 3rem auto;
+    width: 50%;
+}
+.main label{
+    font-size: 2rem;
+    margin-left:1rem ;
+    font-weight: bold;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border: solid 3px black;
+    border-radius: 3px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 3rem;
+}
+.info *{
+    margin: 0.3rem 0;
+    font-size: 1.5rem;
+}
+.photoSelection{
+    margin-top:3rem ;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.photoSelection label{
+    font-size: 1.2rem;
+
+}
+.photoSelection *{
+    margin:0.3rem 0 ;
+}
+.photo {
+    width: 10rem;
+    height: 10rem;
+    margin:0 auto;
+    
+
+    justify-content: center; /*'Элменты выравниваются горизонтально*/
+    align-items: center;/*'Элменты выравниваются вертикально*/
+  
+    overflow: hidden;
+    position: relative;
+}
+.none{
+    border: solid 3px black;
+}
+.photo img{
+
+
+    height: 100%;
+    position: relative;
+  
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+}
+.buttonDelete{
+    display: flex;
+    justify-content: right;
+
+}
+.buttonDelete button{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    position:absolute;
+    border-radius: 50%;
+
+    bottom:50%;
+}
+.buttonDelete button:active{
+    font-size: 1.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}

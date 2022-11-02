@@ -4,6 +4,7 @@ const ROUTES = {
     login:"/login",
     registration:"/reg",
     account:"/me",
+    fgPassword:"/fgpassword",
     tests:"/tests"
 }
 export default ROUTES;

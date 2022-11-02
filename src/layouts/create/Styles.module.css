@@ -1,0 +1,109 @@
+
+.mainBlock{
+    margin: 5% auto;
+    width: 50%;
+
+}
+.info{
+    background-color: white;
+    border-radius: 3px;
+    border: solid black;
+    padding: 2rem;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 80%;
+
+
+}
+.textarea{
+    border-radius:3px;
+    border: solid 1px black ;
+}
+.item{
+    font-size: 1.5rem;
+
+}
+.button{
+    font-size: 1.5rem;
+    border-radius: 3px;
+    border: solid 1px black;
+    margin-right:1rem;
+    width: 30%;
+    height: 80%;
+    text-align: left;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.numberQustion{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.numberQustion button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    
+}
+.quistion{
+    border-radius: 3px;
+    border: solid lightgray 2px;
+    padding: 0 2rem 1.5rem 2rem;
+    margin: 1rem 0;
+}
+.variant{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.3rem;
+
+}
+.addVar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.addVar input{
+    width: 65%;
+    font-size: 1.3rem;
+}
+.addVar button{
+    font-size: 1.3rem;
+}
+
+.variantItem{
+    margin:1rem 1rem ;
+}
+
+
+.addQuistion{
+    width: 5rem;
+    height:5rem;
+    font-size: 3rem;
+    transform: scale(-1, 1);
+}
+
+.confirmButton{
+    width: 50%;
+    font-size: 2rem;
+    border: solid black 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+.voidInput{
+    border: solid red 3px;
+    border-radius: 3px;
+}

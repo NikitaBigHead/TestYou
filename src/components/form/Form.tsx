@@ -1,14 +1,17 @@
 import React, { ReactNode } from "react";
-
+import Styles from "./form.module.css";
 interface Form{
-    name:string,
+    description:string,
     children:ReactNode
 }
-const Form = ({name,children}:Form) =>{
+const Form = ({description,children}:Form) =>{
     return(
-        <div>
-            <p>{name}</p>
-            {children}
+        <div className={Styles.mainBlock} >
+            <div className={Styles.block}>
+                <p>{description}</p>
+                    {children}
+            </div>
+
         </div>
     )
 
