@@ -21,7 +21,7 @@ interface quistion{
     name:string,
     text:string,
     variants:string[],
-    answerIndex:number
+    answerIndex:number[]
 }
 
 const Tests = () =>{

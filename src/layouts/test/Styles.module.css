@@ -7,6 +7,14 @@
     border:3px solid black;
     padding: 2rem;
 }
+.true{
+    border-radius: 3px ;
+    border:3px solid rgb(0, 255, 42);
+}
+.false{
+    border-radius: 3px ;
+    border:3px solid rgb(245, 0, 0);
+}
 .quistion{
     font-size: 2rem;
 }
@@ -41,4 +49,7 @@
     border-radius: 0.3rem;
     background-color: aqua;
 
+}
+.buttons button:hover{
+    font-size: 1.5rem;
 }
